@@ -7,12 +7,19 @@ O projeto adota o padrão de organização da indústria de software, separando 
 
 
 TBO-Projeto-Final/
+
 ├── 📁 Base de dados/             # Arquivos de dados (.txt) para alimentação das estruturas
+
 │   ├── dicionario.txt            # Dicionário bruto original (KMP)
+
 │   ├── words.txt                 # Dicionário purificado e padronizado (Trie/Levenshtein/Cifra)
+
 │   ├── texto_teste_correto.txt   # Massa de teste sem infrações ortográficas
+
 │   ├── texto_teste_com_erro.txt  # Massa de teste com erros ortográficos forçados
+
 │   └── texto_teste_3.txt         # Texto longo para benchmark de volumetria
+
 │
 ├── 📁 include/                   # Cabeçalhos e definições de contratos (.hpp)
 │   ├── Buscador.hpp              # Definições do Aho-Corasick e assinaturas de benchmarks
