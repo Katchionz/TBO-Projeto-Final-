@@ -6,7 +6,7 @@
 O projeto adota o padrão de organização da indústria de software, separando responsabilidades de forma clara e isolando dados, contratos e implementações:
 
 
-TBO-Projeto-Final/
+TBO-Projeto-Final
 
 ├── 📁 Base de dados/             # Arquivos de dados (.txt) para alimentação das estruturas
 
