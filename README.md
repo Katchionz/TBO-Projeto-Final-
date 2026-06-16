@@ -21,20 +21,34 @@ TBO-Projeto-Final/
 │   └── texto_teste_3.txt         # Texto longo para benchmark de volumetria
 
 ├── 📁 include/                   # Cabeçalhos e definições de contratos (.hpp)
+
 │   ├── Buscador.hpp              # Definições do Aho-Corasick e assinaturas de benchmarks
+
 │   ├── Cifra.hpp                 # Assinaturas de criptografia, MergeSort e Busca Binária
+
 │   ├── Corretor.hpp              # Definições da matriz de Distância de Levenshtein
+
 │   ├── Dicionario.hpp            # Estrutura de nós e árvore Trie para correção
+
 │   ├── KMP.hpp                   # Módulo isolado do KMP Original
+
 │   └── MenuMetodos.hpp           # Encapsulamento das rotinas do menu do sistema
-│
+
+
 └── 📁 src/                       # Códigos-fonte com as regras de negócio (.cpp)
+
     ├── Buscador.cpp              # Construção do autômato de Aho-Corasick (BFS manual)
+    
     ├── Cifra.cpp                 # MergeSort, Cifra de César e IA de ataque de força bruta
+    
     ├── Corretor.cpp              # Algoritmo de Programação Dinâmica de Levenshtein
+    
     ├── Dicionario.cpp            # Lógica de inserção/busca em Trie e parser UTF-8
+    
     ├── KMP.cpp                   # Lógica matemática e processamento do array LPS
+    
     ├── MenuMetodos.cpp           # Orquestrador de leitura de arquivos e chamadas de classes
+    
     └── Main.cpp                  # Ponto de entrada limpo e Controlador (Switch/Case)
 
 Desafios Concluídos e Funcionalidades
