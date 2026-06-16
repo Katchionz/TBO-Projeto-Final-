@@ -1,0 +1,5 @@
+# Ignorar arquivos compilados e executáveis
+*.exe
+*.o
+*.out
+projeto_final
