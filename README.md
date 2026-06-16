@@ -20,7 +20,6 @@ TBO-Projeto-Final/
 
 │   └── texto_teste_3.txt         # Texto longo para benchmark de volumetria
 
-│
 ├── 📁 include/                   # Cabeçalhos e definições de contratos (.hpp)
 │   ├── Buscador.hpp              # Definições do Aho-Corasick e assinaturas de benchmarks
 │   ├── Cifra.hpp                 # Assinaturas de criptografia, MergeSort e Busca Binária
