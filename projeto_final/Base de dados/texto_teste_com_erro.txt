@@ -1,0 +1,2 @@
+Aple is a fruit.
+Orange is also a fruit.
